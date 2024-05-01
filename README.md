@@ -24,7 +24,7 @@ Redémarrer l'application : Après avoir effectué cette configuration, redémar
 Vérifier les messages de journalisation : Une fois l'application redémarrée, vous devriez voir les messages
  de journalisation écrits dans le fichier "mylog.log" situé dans le dossier "logs".
  Vous pouvez ouvrir ce fichier pour vérifier si les messages sont correctement enregistrés.
-/***********************************************/
+/***************************************************************************************************************************************************************************************************************************************************************************/
 Voici le rôle de chaque ligne dans votre configuration Spring Boot :
 1/spring.application.name=logging : Définit le nom de l'application Spring Boot comme "logging".
 2/logging.file.name=logs/mylog.log : Configure le fichier de journalisation pour l'application.
@@ -44,7 +44,7 @@ le nom du logger, le message et un caractère de nouvelle ligne.
 Ces lignes de configuration sont utilisées pour personnaliser différents aspects de votre application Spring Boot,
  tels que la gestion des journaux, le nom et la description de l'application, ainsi que le port sur lequel le serveur web écoute les requêtes.
 
-/*******/
+/****************************************************************************************************************************************************************************************************************************************************************************/
 Ces directives de configuration définissent le niveau de journalisation pour la catégorie racine du journal (root).
  Voici la différence entre chaque niveau de journalisation :
 
@@ -62,7 +62,7 @@ Ces directives de configuration définissent le niveau de journalisation pour la
 ==> En résumé, la différence réside dans le niveau de détail des messages enregistrés,
  allant de l'enregistrement seulement des erreurs critiques à l'enregistrement de tous les messages, y compris les détails de suivi les plus fins. 
 Le choix du niveau de journalisation dépend généralement du niveau de détail requis pour le débogage et du volume de messages que vous souhaitez voir dans vos journaux.
-/***************************/
+/****************************************************************************************************************************************************************************************************************************************************************************/
 c'est quoi endpoint et c'est quoi leur role 
 
 1/Un endpoint, dans le contexte des applications web, est une URL spécifique qui représente une ressource ou une fonctionnalité spécifique d'une application.
@@ -82,7 +82,7 @@ Voici quelques-uns de leurs rôles principaux :
 */Contrôle et configuration : Certains endpoints peuvent être utilisés pour surveiller l'état de l'application,
  récupérer des métriques de performance, modifier la configuration de l'application
 
-/*******/
+/****************************************************************************************************************************************************************************************************************************************************************************/
 2/c'est quoi cette code c'estquoi leur role management.endpoints.web.exposure.include=*
 La ligne de configuration management.endpoints.web.exposure.include=*
  est utilisée dans Spring Boot pour exposer tous les endpoints actifs (gestion des points de terminaison) via l'interface web de gestion de l'application.
