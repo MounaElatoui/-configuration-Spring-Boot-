@@ -1791,3 +1791,126 @@ java.lang.ArithmeticException: / by zero
 	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:50) ~[spring-boot-devtools-3.2.5.jar:3.2.5]
 2024-05-01INFO  ---[restartedMain]com.example.loggers.MyApplicationRunner-Application finished
 2024-05-01INFO  ---[restartedMain]org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener-Condition evaluation unchanged
+2024-05-01INFO  ---[restartedMain]com.example.logging.LoggingApplication-Starting LoggingApplication using Java 17.0.10 with PID 19276 (C:\Users\Elife-DJE-115\Desktop\mo\spring\Lab2\Lab2Springboot-Logging-main\target\classes started by Elife-DJE-115 in C:\Users\Elife-DJE-115\Desktop\mo\spring\Lab2\Lab2Springboot-Logging-main)
+2024-05-01INFO  ---[restartedMain]com.example.logging.LoggingApplication-No active profile set, falling back to 1 default profile: "default"
+2024-05-01INFO  ---[restartedMain]org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor-Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-05-01INFO  ---[restartedMain]org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor-For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-05-01WARN  ---[restartedMain]org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker-Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$SpringCGLIB$$0] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). The currently created BeanPostProcessor [annotationActionEndpointMapping] is declared through a non-static factory method on that class; consider declaring it as static instead.
+2024-05-01INFO  ---[restartedMain]org.springframework.ws.soap.addressing.server.AnnotationActionEndpointMapping-Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+2024-05-01INFO  ---[restartedMain]org.springframework.boot.web.embedded.tomcat.TomcatWebServer-Tomcat initialized with port 8080 (http)
+2024-05-01INFO  ---[restartedMain]org.apache.catalina.core.StandardService-Starting service [Tomcat]
+2024-05-01INFO  ---[restartedMain]org.apache.catalina.core.StandardEngine-Starting Servlet engine: [Apache Tomcat/10.1.20]
+2024-05-01INFO  ---[restartedMain]org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]-Initializing Spring embedded WebApplicationContext
+2024-05-01INFO  ---[restartedMain]org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext-Root WebApplicationContext: initialization completed in 982 ms
+2024-05-01INFO  ---[restartedMain]org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer-LiveReload server is running on port 35729
+2024-05-01INFO  ---[restartedMain]org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver-Exposing 14 endpoint(s) beneath base path '/actuator'
+2024-05-01INFO  ---[restartedMain]org.springframework.boot.web.embedded.tomcat.TomcatWebServer-Tomcat started on port 8080 (http) with context path ''
+2024-05-01INFO  ---[restartedMain]com.example.logging.LoggingApplication-Started LoggingApplication in 1.92 seconds (process running for 2.267)
+2024-05-01INFO  ---[restartedMain]com.example.loggers.MyApplicationRunner-Application started
+2024-05-01ERROR ---[restartedMain]com.example.loggers.MyApplicationRunner-Error: Division by zero occurred.
+java.lang.ArithmeticException: / by zero
+	at com.example.loggers.MyApplicationRunner.divide(MyApplicationRunner.java:31)
+	at com.example.loggers.MyApplicationRunner.run(MyApplicationRunner.java:21)
+	at org.springframework.boot.SpringApplication.lambda$callRunner$5(SpringApplication.java:790)
+	at org.springframework.util.function.ThrowingConsumer$1.acceptWithException(ThrowingConsumer.java:83)
+	at org.springframework.util.function.ThrowingConsumer.accept(ThrowingConsumer.java:60)
+	at org.springframework.util.function.ThrowingConsumer$1.accept(ThrowingConsumer.java:88)
+	at org.springframework.boot.SpringApplication.callRunner(SpringApplication.java:798)
+	at org.springframework.boot.SpringApplication.callRunner(SpringApplication.java:789)
+	at org.springframework.boot.SpringApplication.lambda$callRunners$3(SpringApplication.java:774)
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.accept(Unknown Source)
+	at java.base/java.util.stream.SortedOps$SizedRefSortingSink.end(Unknown Source)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(Unknown Source)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(Unknown Source)
+	at java.base/java.util.stream.ForEachOps$ForEachOp.evaluateSequential(Unknown Source)
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(Unknown Source)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(Unknown Source)
+	at java.base/java.util.stream.ReferencePipeline.forEach(Unknown Source)
+	at org.springframework.boot.SpringApplication.callRunners(SpringApplication.java:774)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:341)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1354)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1343)
+	at com.example.logging.LoggingApplication.main(LoggingApplication.java:13)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.base/java.lang.reflect.Method.invoke(Unknown Source)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:50)
+2024-05-01INFO  ---[restartedMain]com.example.loggers.MyApplicationRunner-Application finished
+2024-05-01INFO  ---[restartedMain]com.example.logging.LoggingApplication-Starting LoggingApplication using Java 17.0.11 with PID 12172 (C:\Users\mouna\OneDrive\Bureau\formation\SpringBoot\Lab2Springboot-Logging-main\Lab2Springboot-Logging-main\target\classes started by mouna in C:\Users\mouna\OneDrive\Bureau\formation\SpringBoot\Lab2Springboot-Logging-main\Lab2Springboot-Logging-main)
+2024-05-01INFO  ---[restartedMain]com.example.logging.LoggingApplication-No active profile set, falling back to 1 default profile: "default"
+2024-05-01INFO  ---[restartedMain]org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor-Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-05-01INFO  ---[restartedMain]org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor-For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-05-01WARN  ---[restartedMain]org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker-Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$SpringCGLIB$$0] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). The currently created BeanPostProcessor [annotationActionEndpointMapping] is declared through a non-static factory method on that class; consider declaring it as static instead.
+2024-05-01INFO  ---[restartedMain]org.springframework.ws.soap.addressing.server.AnnotationActionEndpointMapping-Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+2024-05-01INFO  ---[restartedMain]org.springframework.boot.web.embedded.tomcat.TomcatWebServer-Tomcat initialized with port 8080 (http)
+2024-05-01INFO  ---[restartedMain]org.apache.catalina.core.StandardService-Starting service [Tomcat]
+2024-05-01INFO  ---[restartedMain]org.apache.catalina.core.StandardEngine-Starting Servlet engine: [Apache Tomcat/10.1.20]
+2024-05-01INFO  ---[restartedMain]org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]-Initializing Spring embedded WebApplicationContext
+2024-05-01INFO  ---[restartedMain]org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext-Root WebApplicationContext: initialization completed in 3297 ms
+2024-05-01INFO  ---[restartedMain]org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer-LiveReload server is running on port 35729
+2024-05-01INFO  ---[restartedMain]org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver-Exposing 14 endpoint(s) beneath base path '/actuator'
+2024-05-01INFO  ---[restartedMain]org.springframework.boot.web.embedded.tomcat.TomcatWebServer-Tomcat started on port 8080 (http) with context path ''
+2024-05-01INFO  ---[restartedMain]com.example.logging.LoggingApplication-Started LoggingApplication in 7.271 seconds (process running for 8.499)
+2024-05-01INFO  ---[restartedMain]com.example.loggers.MyApplicationRunner-Application started
+2024-05-01ERROR ---[restartedMain]com.example.loggers.MyApplicationRunner-Error: Division by zero occurred.
+java.lang.ArithmeticException: / by zero
+	at com.example.loggers.MyApplicationRunner.divide(MyApplicationRunner.java:31)
+	at com.example.loggers.MyApplicationRunner.run(MyApplicationRunner.java:21)
+	at org.springframework.boot.SpringApplication.lambda$callRunner$5(SpringApplication.java:790)
+	at org.springframework.util.function.ThrowingConsumer$1.acceptWithException(ThrowingConsumer.java:83)
+	at org.springframework.util.function.ThrowingConsumer.accept(ThrowingConsumer.java:60)
+	at org.springframework.util.function.ThrowingConsumer$1.accept(ThrowingConsumer.java:88)
+	at org.springframework.boot.SpringApplication.callRunner(SpringApplication.java:798)
+	at org.springframework.boot.SpringApplication.callRunner(SpringApplication.java:789)
+	at org.springframework.boot.SpringApplication.lambda$callRunners$3(SpringApplication.java:774)
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:183)
+	at java.base/java.util.stream.SortedOps$SizedRefSortingSink.end(SortedOps.java:357)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:510)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
+	at java.base/java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:150)
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:173)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:596)
+	at org.springframework.boot.SpringApplication.callRunners(SpringApplication.java:774)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:341)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1354)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1343)
+	at com.example.logging.LoggingApplication.main(LoggingApplication.java:13)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:50)
+2024-05-01INFO  ---[restartedMain]com.example.loggers.MyApplicationRunner-Application finished
+2024-05-01INFO  ---[File Watcher]o.s.b.d.autoconfigure.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener-Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2024-05-01WARN  ---[restartedMain]org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker-Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$SpringCGLIB$$0] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). The currently created BeanPostProcessor [annotationActionEndpointMapping] is declared through a non-static factory method on that class; consider declaring it as static instead.
+2024-05-01ERROR ---[restartedMain]com.example.loggers.MyApplicationRunner-Error: Division by zero occurred.
+java.lang.ArithmeticException: / by zero
+	at com.example.loggers.MyApplicationRunner.divide(MyApplicationRunner.java:31) ~[classes/:na]
+	at com.example.loggers.MyApplicationRunner.run(MyApplicationRunner.java:21) ~[classes/:na]
+	at org.springframework.boot.SpringApplication.lambda$callRunner$5(SpringApplication.java:790) ~[spring-boot-3.2.5.jar:3.2.5]
+	at org.springframework.util.function.ThrowingConsumer$1.acceptWithException(ThrowingConsumer.java:83) ~[spring-core-6.1.6.jar:6.1.6]
+	at org.springframework.util.function.ThrowingConsumer.accept(ThrowingConsumer.java:60) ~[spring-core-6.1.6.jar:6.1.6]
+	at org.springframework.util.function.ThrowingConsumer$1.accept(ThrowingConsumer.java:88) ~[spring-core-6.1.6.jar:6.1.6]
+	at org.springframework.boot.SpringApplication.callRunner(SpringApplication.java:798) ~[spring-boot-3.2.5.jar:3.2.5]
+	at org.springframework.boot.SpringApplication.callRunner(SpringApplication.java:789) ~[spring-boot-3.2.5.jar:3.2.5]
+	at org.springframework.boot.SpringApplication.lambda$callRunners$3(SpringApplication.java:774) ~[spring-boot-3.2.5.jar:3.2.5]
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:183) ~[na:na]
+	at java.base/java.util.stream.SortedOps$SizedRefSortingSink.end(SortedOps.java:357) ~[na:na]
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:510) ~[na:na]
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499) ~[na:na]
+	at java.base/java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:150) ~[na:na]
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:173) ~[na:na]
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234) ~[na:na]
+	at java.base/java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:596) ~[na:na]
+	at org.springframework.boot.SpringApplication.callRunners(SpringApplication.java:774) ~[spring-boot-3.2.5.jar:3.2.5]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:341) ~[spring-boot-3.2.5.jar:3.2.5]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1354) ~[spring-boot-3.2.5.jar:3.2.5]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1343) ~[spring-boot-3.2.5.jar:3.2.5]
+	at com.example.logging.LoggingApplication.main(LoggingApplication.java:13) ~[classes/:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568) ~[na:na]
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:50) ~[spring-boot-devtools-3.2.5.jar:3.2.5]
